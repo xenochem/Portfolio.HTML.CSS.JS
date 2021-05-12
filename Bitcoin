@@ -1,0 +1,52 @@
+<main id="main">
+  <h1 id="title">Bitcoin</h1>
+  <p>The mysterious birth of Bitcoin</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://static.dw.com/image/56167112_403.jpg"
+      alt="A gold coin with the Bitcoin symbol"
+    />
+    <figcaption id="img-caption">
+      This gold coin is usally made by investors that have made a substantial amount of gains from investing into Bitcoin.
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Bitcoin's Development</h3>
+    <ul>
+      <li>
+        <strong>2007</strong> - Nakamoto stated that work on the writing of the code
+      </li>
+      <li>
+        <strong>2008 - August</strong> - Bitcoin 1st website was created
+      </li>
+      <li>
+        <strong>2008 - October</strong> - Nakamoto published a white paper on cryptography mailing list at metzdowd.com describing a digital cryptocurrency, titled "Bitcoin: A Peer-to-Peer Electronic Cash System"
+      </li>
+      <li>
+        <strong>2009 - January</strong> - Nakamoto released version 0.1 of the bitcoin software on SourceForge, and launched the network by mining the genesis block of bitcoin (block number 0), which had a reward of 50 bitcoins.
+      </li>
+      <li>
+        <strong>2010</strong> - Nakamoto continued to collaborate with other developers on the bitcoin software, making all modifications to the soucre code himself. He then gave control of the source code repository and network alert key to Gavin Andresen, transferred several related domains to various prominent members of the bitcoin community, and stopped his recognized involvement in the project.
+      </li>
+    </ul>
+    <blockquote
+      cite="https://inspirationfeed.com/bitcoin-quotes/"
+    >
+      <p>
+        “Bitcoin is a remarkable cryptographic achievement and the ability to create something that is not duplicable in the digital world has enormous value.” 
+      </p>
+      <cite>-- Eric Schmidt (Google CEO)</cite>
+    </blockquote>
+    <h3>
+      If you have time, you should read more about this incredible project
+      on this
+      <a
+        id="tribute-link"
+        href="https://en.wikipedia.org/wiki/Bitcoin"
+        target="_blank"
+        >Wikipedia entry</a
+      >.
+    </h3>
+  </section>
+</main>
