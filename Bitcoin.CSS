@@ -1,0 +1,137 @@
+html {
+  font-size: 10px;
+  
+}
+
+body {
+  font-family: 'bitcoinregular';
+  src: url('bitcoin-webfont.eot');
+  src: url('bitcoin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bitcoin-webfont.woff2') format('woff2'),
+         url('bitcoin-webfont.woff') format('woff'),
+         url('bitcoin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 8rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+.fade-in-text {
+  font-size: 5rem;
+  color: black;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
